@@ -1,0 +1,105 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    background: url("../img/demoBG.png") no-repeat;
+}
+
+.dm-header {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    margin-left: -157px;
+    top: 128px;
+    color: #fff;
+    font-size: 34px;
+    font-weight: lighter;
+}
+
+.mg-info {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    margin-left: -270px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.line-left {
+    position: absolute;
+    left: 262px;
+    top: 151px;
+    width: 500px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.line-right {
+    position: absolute;
+    left: 1126px;
+    top: 151px;
+    width: 500px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.work-ul {
+    /* position: absolute;
+   left: 302px;
+   top: 366px;
+   width: 1420px; */
+    position: relative;
+    margin-top: 366px;
+}
+
+.work-ul li {
+    /* float: left; */
+    position: absolute;
+    left: 50%;
+}
+
+.work-ul>li>img {
+    position: relative;
+    width: 284px;
+    transition: 0.4s cubic-bezier(0,.62,.4,.95);
+}
+
+.work-ul>li>img:hover {
+    width: 330px;
+    box-shadow: 0 20px 60px #2edaff;
+}
+
+.work-ul>.wk-news {
+    margin-left: -512px;
+}
+
+.work-ul>.wk-v3 {
+    margin-left: -142px;
+}
+
+.work-ul>.wk-g5 {
+    margin-left: 229px;
+}
+
+.work-ul>.wk-paper {
+    margin-left: -512px;
+    margin-top: 306px;
+}
+
+.work-ul>.wk-jiashu {
+    margin-left: -142px;
+    margin-top: 306px;
+}
+
+.work-ul>.wk-launcher {
+    margin-left: 229px;
+    margin-top: 306px;
+}

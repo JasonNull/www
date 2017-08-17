@@ -1,0 +1,17 @@
+{
+    "imgBG": "img/demoBG.png",
+    "mainTitle": "Motion-graphic work",
+    "subTitle": "Some works of my motion-graphic animation",
+    "video_01_png": "img/news.png",
+    "video_01_mp4": "video/dr_news.mp4",
+    "video_02_png": "img/cleanV3.png",
+    "video_02_mp4": "video/clean_v3.mp4",
+    "video_03_png": "img/G5.png",
+    "video_03_mp4": "video/g5.mp4",
+    "video_04_png": "img/paper.png",
+    "video_04_mp4": "video/paper.mp4",
+    "video_05_png": "img/cleanJiashu.png",
+    "video_05_mp4": "video/clean_faster.mp4",
+    "video_06_png": "img/91launcher.png",
+    "video_06_mp4": "video/91launcher.mp4"
+}

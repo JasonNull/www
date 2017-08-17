@@ -1,0 +1,21 @@
+{
+    "imgBG": "img/aboutBG2.png",
+    "imgHead": "img/wjxHead.png",
+    "imgWechat": "img/wechat.png",
+    "imgMiniPrev": "img/aboutUp.png",
+    "imgMiniSkill": "img/aboutTool.png",
+    "imgMiniId": "img/aboutId.png",
+    "imgMiniNext": "img/aboutDown.png",
+    "imgHome":"img/aboutHome.png" ,
+    "imgHomeB":"img/aboutHomeB.png" ,
+    "imgEye":"img/aboutEye.png" ,
+    "imgEyeB":"img/aboutEyeB.png" ,
+    "imgUp": "img/aboutUp.png",
+    "imgUpB": "img/aboutUpB.png",
+    "imgId": "img/aboutId.png",
+    "imgIdB": "img/aboutIdB.png",
+    "imgTool": "img/aboutTool.png",
+    "imgToolB": "img/aboutToolB.png",
+    "imgDown": "img/aboutDown.png",
+    "imgDownB": "img/aboutDownB.png"
+}

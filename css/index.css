@@ -1,0 +1,783 @@
+@font-face {
+    font-family: 'wjxfont';
+    src: url('../fonts/MyriadPro-LightSemiExt.otf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 !important;
+    font-family: "wjxfont", "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+.container {
+    overflow: hidden;
+}
+
+
+/* #home  */
+
+
+/* Bootstrap expend   */
+
+.navbar-wjx {
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, .05);
+    border-color: transparent;
+}
+
+.navbar-wjx .navbar-brand {
+    color: #777;
+}
+
+.navbar-wjx .navbar-brand:hover,
+.navbar-wjx .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.navbar-wjx .navbar-text {
+    color: #777;
+}
+
+.navbar-wjx .navbar-nav>li>a {
+    color: #ffd33b;
+    cursor: pointer;
+}
+
+.navbar-wjx .navbar-nav>li>a:hover,
+.navbar-wjx .navbar-nav>li>a:focus {
+    color: #49e4ff;
+    background-color: transparent;
+}
+
+.navbar-wjx .navbar-nav>.active>a,
+.navbar-wjx .navbar-nav>.active>a:hover,
+.navbar-wjx .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-wjx .navbar-nav>.disabled>a,
+.navbar-wjx .navbar-nav>.disabled>a:hover,
+.navbar-wjx .navbar-nav>.disabled>a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-wjx .navbar-toggle {
+    border-color: #ddd;
+}
+
+.navbar-wjx .navbar-toggle:hover,
+.navbar-wjx .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+.navbar-wjx .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.navbar-wjx .navbar-collapse,
+.navbar-wjx .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-wjx .navbar-nav>.open>a,
+.navbar-wjx .navbar-nav>.open>a:hover,
+.navbar-wjx .navbar-nav>.open>a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .navbar-wjx .navbar-nav .open .dropdown-menu>li>a {
+        color: #777;
+    }
+    .navbar-wjx .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-wjx .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-wjx .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-wjx .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-wjx .navbar-nav .open .dropdown-menu>.active>a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-wjx .navbar-nav .open .dropdown-menu>.disabled>a,
+    .navbar-wjx .navbar-nav .open .dropdown-menu>.disabled>a:hover,
+    .navbar-wjx .navbar-nav .open .dropdown-menu>.disabled>a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+@media(max-width:960px) {
+    #home .navbar-right>li {
+        float: left;
+    }
+}
+
+@media(max-width:500px) {
+    #home .navbar-right>li>a {
+        font-size: 14px;
+        padding: 20px 8px;
+    }
+}
+
+.navbar-wjx .navbar-link {
+    color: #777;
+}
+
+.navbar-wjx .navbar-link:hover {
+    color: #333;
+}
+
+.navbar-wjx .btn-link {
+    color: #777;
+}
+
+.navbar-wjx .btn-link:hover,
+.navbar-wjx .btn-link:focus {
+    color: #333;
+}
+
+.navbar-wjx .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-wjx .btn-link:hover,
+.navbar-wjx .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-wjx .btn-link:focus {
+    color: #ccc;
+}
+
+.navbar-wjx .navbar-nav a {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 40px 20px;
+}
+
+.navbar-wjx .navbar-brand {
+    width: 200px;
+    /* padding: 20px; */
+}
+
+
+/* Bootstrap expend end  */
+
+#home {
+    height: 1080px;
+    background: #161a22 url("../img/homeBG.png") no-repeat;
+}
+
+.WXlogo {
+    display: inline-block;
+    width: 150px;
+    height: 84px;
+    background: url("../img/WXlogo.png") no-repeat center center;
+    background-size: contain;
+}
+
+#home .navbar-toggle {
+    background-color: transparent;
+    border-color: #ffd33b;
+}
+
+#home .navbar-toggle span {
+    background-color: #ffd33b;
+}
+
+#home .intro {
+    position: absolute;
+    left: 0;
+    top: 430px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 26px;
+    line-height: 250%;
+    font-weight: 200;
+}
+
+@media(max-width:540px) {
+    #home .intro {
+        font-size: 16px;
+    }
+}
+
+.intro span {
+    font-size: 161%;
+    margin-left: 30px;
+}
+
+
+/* #home end  */
+
+
+/* design  */
+
+#design {
+    position: relative;
+    height: 1080px;
+    /* background: url("../img/demoBG.png") no-repeat center center; */
+}
+
+#design .design-BG {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#design .head-flying {
+    margin-top: 60px;
+}
+
+.dm-header {
+    display: inline-block;
+    color: #fff;
+    font-size: 31px;
+    font-weight: lighter;
+}
+
+.mg-info {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.line-left {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 38px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.line-right {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 38px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#design .dsg-works {
+    margin-top: 230px;
+}
+
+#design .dsg-works-2 {
+    margin-top: 67px;
+}
+
+#design .dsg-works img,
+#design .dsg-works-2 img {
+    width: 80%;
+}
+
+
+/* design end  */
+
+
+/* aboutME  */
+
+#aboutMe {
+    position: relative;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#aboutMe .about-BG {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#aboutMe .about-board {
+    height: 1080px;
+}
+
+.about-board {
+    position: relative;
+    height: 100%;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width:500px) {
+    .about-board {
+        font-size: 18px;
+    }
+}
+
+.about-board .head-logo {
+    margin-top: 40px;
+}
+
+.about-content-row {
+    margin-top: 150px;
+}
+
+.about-content-intro {
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 100%;
+    line-height: 150%;
+    font-family: "Myriad", "Microsoft Yehei", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.about-content-intro h1 {
+    margin-bottom: 1em;
+    font-size: 34px;
+    color: #ffd33b;
+    font-weight: 600;
+}
+
+.about-content-intro .content-num {
+    position: relative;
+    left: -20px;
+}
+
+.about-board .wjxHead {
+    width: 76%;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.about-board .wjxHead:hover {
+    box-shadow: 0 0 60px #ffd33b;
+}
+
+.about-content-intro dt {
+    margin-bottom: 14px;
+}
+
+.about-content-intro dd {
+    text-indent: 2em;
+    font-size: 80%;
+}
+
+.about-content-intro dd span {
+    opacity: 0.8;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.about-content-skill h1 {
+    margin-bottom: 1em;
+    font-size: 34px;
+    color: #ffd33b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-content-skill {
+    font-family: "Myriad", "Microsoft Yehei", sans-serif;
+    display: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 100%;
+    line-height: 158%;
+}
+
+.about-content-contact {
+    display: none;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+    font: normal 100 24px/150% "Myriad", "Microsoft Yehei", sans-serif;
+}
+
+.about-content-contact h1 {
+    margin-bottom: 1em;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffd33b;
+}
+
+.about-content-contact .wechat {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-content-contact .wcImg {
+    width: 180px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.about-content-contact .wcImg:hover {
+    margin-top: -40px;
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px #53b8ff;
+}
+
+.rtHome,
+.rtEye,
+.rtUp,
+.rtTool,
+.rtId,
+.rtDown {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.rtHome {
+    margin-left: -656px;
+    margin-top: -225px;
+}
+
+.rtEye {
+    margin-left: -543px;
+    margin-top: 56px;
+}
+
+.rtUp {
+    margin-left: 380px;
+    margin-top: -317px;
+}
+
+.rtTool {
+    margin-left: 536px;
+    margin-top: -127px;
+}
+
+.rtId {
+    margin-left: 380px;
+    margin-top: 99px;
+}
+
+.rtDown {
+    margin-left: 536px;
+    margin-top: 242px;
+}
+
+
+/* entire container, keeps perspective */
+
+.flip-container {
+    perspective: 1000;
+}
+
+.flip-container img {
+    width: 90px;
+}
+
+
+/* flip the pane when hovered */
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+    width: 90px;
+    height: 104px;
+}
+
+
+/* flip speed goes here */
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+
+/* hide back of pane during swap */
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* front pane, placed above back */
+
+.front {
+    z-index: 2;
+}
+
+
+/* back, initially hidden pane */
+
+.back {
+    transform: rotateY(180deg);
+}
+
+
+/* mini-content-nav  */
+
+.mini-content-nav li {
+    float: left;
+    padding: 0;
+    text-align: center;
+}
+
+.mini-content-nav li>img {
+    width: 52px;
+    margin: 0px 10px;
+}
+
+
+/* mini-content-nav end  */
+
+@keyframes shake {
+    2% {
+        transform: translate(.5px, 1.5px) rotate(1.5deg)
+    }
+    4% {
+        transform: translate(.5px, 1.5px) rotate(1.5deg)
+    }
+    6% {
+        transform: translate(-1.5px, -1.5px) rotate(-.5deg)
+    }
+    8% {
+        transform: translate(.5px, -.5px) rotate(.5deg)
+    }
+    10% {
+        transform: translate(.5px, 2.5px) rotate(.5deg)
+    }
+    12% {
+        transform: translate(2.5px, 1.5px) rotate(-.5deg)
+    }
+    14% {
+        transform: translate(-1.5px, 2.5px) rotate(-.5deg)
+    }
+    16% {
+        transform: translate(-.5px, .5px) rotate(.5deg)
+    }
+    18% {
+        transform: translate(.5px, 2.5px) rotate(1.5deg)
+    }
+    20% {
+        transform: translate(-.5px, -.5px) rotate(.5deg)
+    }
+    22% {
+        transform: translate(2.5px, .5px) rotate(-.5deg)
+    }
+    24% {
+        transform: translate(-1.5px, -1.5px) rotate(.5deg)
+    }
+    26% {
+        transform: translate(2.5px, -.5px) rotate(-.5deg)
+    }
+    28% {
+        transform: translate(1.5px, -.5px) rotate(.5deg)
+    }
+    30% {
+        transform: translate(.5px, .5px) rotate(-.5deg)
+    }
+    32% {
+        transform: translate(-1.5px, .5px) rotate(-.5deg)
+    }
+    34% {
+        transform: translate(.5px, 2.5px) rotate(-.5deg)
+    }
+    36% {
+        transform: translate(-.5px, -.5px) rotate(1.5deg)
+    }
+    38% {
+        transform: translate(-1.5px, -1.5px) rotate(.5deg)
+    }
+    40% {
+        transform: translate(-1.5px, 1.5px) rotate(1.5deg)
+    }
+    42% {
+        transform: translate(.5px, -1.5px) rotate(1.5deg)
+    }
+    44% {
+        transform: translate(.5px, .5px) rotate(.5deg)
+    }
+    46% {
+        transform: translate(-1.5px, -1.5px) rotate(1.5deg)
+    }
+    48% {
+        transform: translate(.5px, -1.5px) rotate(.5deg)
+    }
+    50% {
+        transform: translate(2.5px, .5px) rotate(-.5deg)
+    }
+    52% {
+        transform: translate(-.5px, 2.5px) rotate(-.5deg)
+    }
+    54% {
+        transform: translate(.5px, .5px) rotate(.5deg)
+    }
+    56% {
+        transform: translate(-1.5px, 2.5px) rotate(.5deg)
+    }
+    58% {
+        transform: translate(2.5px, .5px) rotate(.5deg)
+    }
+    60% {
+        transform: translate(-1.5px, 2.5px) rotate(.5deg)
+    }
+    62% {
+        transform: translate(1.5px, -.5px) rotate(-.5deg)
+    }
+    64% {
+        transform: translate(1.5px, -1.5px) rotate(1.5deg)
+    }
+    66% {
+        transform: translate(1.5px, -1.5px) rotate(-.5deg)
+    }
+    68% {
+        transform: translate(.5px, 2.5px) rotate(-.5deg)
+    }
+    70% {
+        transform: translate(1.5px, -1.5px) rotate(1.5deg)
+    }
+    72% {
+        transform: translate(1.5px, 1.5px) rotate(-.5deg)
+    }
+    74% {
+        transform: translate(-.5px, 1.5px) rotate(1.5deg)
+    }
+    76% {
+        transform: translate(1.5px, 2.5px) rotate(.5deg)
+    }
+    78% {
+        transform: translate(-.5px, .5px) rotate(.5deg)
+    }
+    80% {
+        transform: translate(-1.5px, 2.5px) rotate(.5deg)
+    }
+    82% {
+        transform: translate(.5px, 2.5px) rotate(-.5deg)
+    }
+    84% {
+        transform: translate(2.5px, -.5px) rotate(.5deg)
+    }
+    86% {
+        transform: translate(1.5px, .5px) rotate(.5deg)
+    }
+    88% {
+        transform: translate(-.5px, -1.5px) rotate(-.5deg)
+    }
+    90% {
+        transform: translate(1.5px, -.5px) rotate(1.5deg)
+    }
+    92% {
+        transform: translate(.5px, 2.5px) rotate(.5deg)
+    }
+    94% {
+        transform: translate(2.5px, .5px) rotate(-.5deg)
+    }
+    96% {
+        transform: translate(.5px, 2.5px) rotate(.5deg)
+    }
+    98% {
+        transform: translate(2.5px, -1.5px) rotate(1.5deg)
+    }
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(0)
+    }
+}
+
+.shake {
+    animation-name: shake;
+    animation-duration: 100ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite
+}
+
+
+/* aboutME end  */
+
+
+/* #thanks  */
+
+#thanks {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#thanks .flip-container {
+    margin-top: 42px;
+    width: 80%;
+    height: 600px;
+}
+
+#thanks .max-width {
+    width: 100%;
+}
+
+#thanks .flip-container .front,
+#thanks .flip-container .back {
+    height: 600px;
+}
+
+#thanks .thanks-content-front {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -107px;
+    margin-top: 108px;
+    color: #fff;
+}
+
+#thanks .thanks-content-front h3 {
+    font-size: 51px;
+}
+
+#thanks .thanks-content-back {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -91px;
+    margin-top: 65px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* thanks end  */
+
+#idModal {
+    padding: 0 !important;
+}
+
+#idModal .modal-header {
+    color: #1b7ad0;
+    letter-spacing: 3px;
+}
+
+#idModal .modal-body {
+    text-align: center;
+}
+
+#idModal .glyphicon {
+    font-size: 40px;
+    margin: 0 64px;
+    color: #3a9ff9;
+}
+
+#idModal .btn-jianli {
+    background-color: #3a9ff9;
+    border-color: #3a9ff9;
+    border-radius: 4px;
+}
